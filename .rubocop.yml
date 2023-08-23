@@ -1,0 +1,8 @@
+AllCops:
+  NewCops: enable
+Style/GlobalVars:
+  Exclude:
+    - '*.rb'
+Metrics/BlockLength:
+  Exclude:
+    - 'spec/*_spec.rb'
