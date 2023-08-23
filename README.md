@@ -2,6 +2,9 @@
 
 You can post to and get from any resource name, the examples use `users` but it could be anything
 
+## Start the server
+ruby api.rb
+
 ## Posting a JSON blob
 curl -X POST -H "Content-Type: application/json" -d '{"name": "John Doe"}' http://localhost:4567/api/users
 
