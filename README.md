@@ -1,6 +1,6 @@
 # mock_api
 
-You can post to and get from any resource name, the examples use `users` but it could be anything
+You can post, patch or get from any resource name, the examples use `users` but it could be anything
 
 ## Start the server
 ruby api.rb
